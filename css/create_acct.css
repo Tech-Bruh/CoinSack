@@ -1,0 +1,236 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* General Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 60px;
+  padding: 0px 120px;
+}
+
+.navbar-item {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.navbar-item p a {
+  color: #0466c8;
+  font-family: "Bauhaus 93", sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+}
+.navbar-item p a:hover {
+  color: #0466c8;
+}
+
+.navbar-item p a span {
+  color: #ff5400;
+}
+
+.navbar-item a.last-anchor {
+  color: #0a0b0d;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.navbar-item a.last-anchor:hover {
+  color: #ff5400;
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar {
+    padding: 0px 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navbar {
+    padding: 0px 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar {
+    padding: 0px 30px;
+  }
+}
+
+/* Division One */
+.division-one {
+  padding: 100px 120px;
+}
+
+.main-container {
+  display: flex;
+  height: 100%;
+}
+
+.section-one {
+  background: url("../images/create-acct/section-one-img.png") center/cover;
+  height: 516px;
+  width: 516px;
+}
+
+.section-two {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0px 50px;
+  width: calc(100% - 516px);
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+.heading h1 {
+  color: #0a0b0d;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.heading p {
+  font-size: 14px;
+}
+
+.fields {
+  margin-bottom: 20px;
+}
+
+.fields label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.fields input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  width: 100%;
+  transition: all 0.3s;
+}
+.fields input:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.fields input:last-of-type {
+  margin-bottom: 30px;
+}
+
+::placeholder {
+  color: rgba(69, 69, 69, 0.6);
+}
+
+.fields p,
+.foot p {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.fields p a,
+.foot p a {
+  color: #0466c8;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.fields p a:hover,
+.foot p a:hover {
+  color: #ff5400;
+}
+
+.foot button {
+  background-color: #0466c8;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  transition: all 0.3s;
+  width: 100%;
+}
+.foot button:hover {
+  background-color: #ff5400;
+}
+
+@media screen and (max-width: 1300px) {
+  .division-one {
+    padding: 100px;
+  }
+
+  .section-one {
+    display: none;
+  }
+
+  .section-two {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .division-one {
+    padding: 100px 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .division-one {
+    padding: 100px 10px;
+  }
+
+  .section-two {
+    padding: 50px 30px;
+  }
+
+  .heading h1 {
+    font-size: 30px;
+  }
+
+  .heading p {
+    font-size: 12px;
+  }
+
+  .fields label {
+    font-size: 13px;
+  }
+
+  .fields input {
+    font-size: 13px;
+    padding: 15px;
+  }
+
+  .fields p,
+  .foot p {
+    font-size: 12px;
+    line-height: 1.3rem;
+  }
+
+  .foot button {
+    font-size: 14px;
+  }
+}
