@@ -1,5 +1,7 @@
 # CoinSack
 
-Ui/UX Designer: Oluwatosin Oladoyin P.
+Ui/UX Designer: Don Wayne
 
-Frontend Developer: Famuyiwa Daniel A.
+Frontend Developer: Hartford
+
+Backend Developer: Chinepun
