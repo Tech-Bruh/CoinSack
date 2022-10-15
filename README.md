@@ -1,6 +1,6 @@
 # CoinSack
 
-Ui/UX Designer: Don Wayne
+UI/UX Designer: Don Wayne
 
 Frontend Developer: Hartford
 
